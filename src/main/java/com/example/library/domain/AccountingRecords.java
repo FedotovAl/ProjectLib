@@ -1,9 +1,11 @@
 package com.example.library.domain;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import java.sql.Date;
 
 @Data
+@NoArgsConstructor
 public class AccountingRecords {
     private Long id;
     private Long accountId;

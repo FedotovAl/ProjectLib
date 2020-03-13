@@ -1,12 +1,10 @@
 package com.example.library;
 
+import com.example.library.bl.Util;
+
 public class Application {
     public static void main(String[] args) {
-        Car car = new Car();
-        car.setA(4);
-        car.setB(5);
-        System.out.println(car.getA() + " " + car.getB());
-
-        System.out.println();
+        Util util = new Util();
+        util.getConnection();
     }
 }

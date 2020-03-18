@@ -1,4 +1,4 @@
-package com.example.library.domain;
+package com.example.library.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,5 +12,5 @@ public class AccountingRecords {
     private Long bookId;
     private Date receiptDate;
     private Date returnDate;
-    private String statusId;
+    private String status;
 }

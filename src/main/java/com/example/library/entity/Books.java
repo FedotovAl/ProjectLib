@@ -1,4 +1,4 @@
-package com.example.library.domain;
+package com.example.library.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,6 +8,5 @@ import lombok.NoArgsConstructor;
 public class Books {
     private Long id;
     private String name;
-    private Long authorId;
-    private String categoryId;
+    private String category;
 }

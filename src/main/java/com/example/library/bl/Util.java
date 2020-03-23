@@ -16,11 +16,11 @@ public class Util {
             Class.forName(DB_DRIVER);
             connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
 
-            System.out.println("We have connection");//test
+            //System.out.println("We have connection");//test
 
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
-            System.out.println("We don't have connection");//test
+            //System.out.println("We don't have connection");//test
         }
         return connection;
     }

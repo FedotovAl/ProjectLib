@@ -7,9 +7,12 @@ import lombok.NoArgsConstructor;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.log4j.Logger;
 
 @NoArgsConstructor
 public class ClientDAO extends Util implements DAO<Client, Long> {
+    private static final Logger logger = Logger.getLogger(ClientDAO.class);
+    //Добавление
     @Override
     public void add(Client client) throws SQLException {
         Connection connection = getConnection();
@@ -24,9 +27,11 @@ public class ClientDAO extends Util implements DAO<Client, Long> {
             preparedStatement.setString(2, client.getLastname());
 
             preparedStatement.executeUpdate();
+            logger.info("Add client to DB");
         }
         catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         }
         finally {
             if (preparedStatement != null){
@@ -38,13 +43,14 @@ public class ClientDAO extends Util implements DAO<Client, Long> {
         }
     }
 
+    //Получение листа из всех Клиентов
     @Override
     public List<Client> getAll() throws SQLException{
         Connection connection = getConnection();
 
         List<Client> clientsList = new ArrayList<>();
 
-        String sql = "SELECT * FROM clients";
+        String sql = "SELECT * FROM clients ORDER BY id";
 
         Statement statement = null;
         try{
@@ -60,9 +66,11 @@ public class ClientDAO extends Util implements DAO<Client, Long> {
 
                 clientsList.add(client);
             }
+            logger.info("Get List of clients from DB");
         }
         catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         }
         finally {
             if (statement != null){
@@ -75,6 +83,7 @@ public class ClientDAO extends Util implements DAO<Client, Long> {
         return clientsList;
     }
 
+    //получение клиента по ID
     @Override
     public Client getByID(Long id) throws SQLException{
         Connection connection = getConnection();
@@ -94,8 +103,10 @@ public class ClientDAO extends Util implements DAO<Client, Long> {
                 client.setFirstname(resultSet.getString("firstname"));
                 client.setLastname(resultSet.getString("lastname"));
             }
+            logger.info("Get client by ID from DB");
         } catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         } finally {
             if (preparedStatement != null){
                 preparedStatement.close();
@@ -107,6 +118,7 @@ public class ClientDAO extends Util implements DAO<Client, Long> {
         return client;
     }
 
+    //Обновление клиента
     @Override
     public void update(Client client) throws SQLException {
         Connection connection = getConnection();
@@ -123,8 +135,10 @@ public class ClientDAO extends Util implements DAO<Client, Long> {
             preparedStatement.setLong(3, client.getId());
 
             preparedStatement.executeUpdate();
+            logger.info("Update client from DB");
         } catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         } finally {
             if (preparedStatement != null){
                 preparedStatement.close();
@@ -136,6 +150,7 @@ public class ClientDAO extends Util implements DAO<Client, Long> {
 
     }
 
+    //Удаление клиента
     @Override
     public void remove(Client client) throws SQLException{
         Connection connection = getConnection();
@@ -151,8 +166,11 @@ public class ClientDAO extends Util implements DAO<Client, Long> {
 
             preparedStatement.executeUpdate();
 
+            logger.info("Delete client from DB");
+
         } catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         } finally {
             if (preparedStatement != null) {
                 preparedStatement.close();

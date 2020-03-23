@@ -7,9 +7,13 @@ import lombok.NoArgsConstructor;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.log4j.Logger;
 
 @NoArgsConstructor
 public class AuthorsDAO extends Util implements DAO<Authors, Long> {
+    private static final Logger logger = Logger.getLogger(AuthorsDAO.class);
+
+    //добавление
     @Override
     public void add(Authors authors) throws SQLException {
         Connection connection = getConnection();
@@ -24,9 +28,12 @@ public class AuthorsDAO extends Util implements DAO<Authors, Long> {
             preparedStatement.setString(2, authors.getLastname());
 
             preparedStatement.executeUpdate();
+
+            logger.info("Add author to DB");
         }
         catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         }
         finally {
             if (preparedStatement != null){
@@ -38,13 +45,14 @@ public class AuthorsDAO extends Util implements DAO<Authors, Long> {
         }
     }
 
+    //получение листа авторов
     @Override
     public List<Authors> getAll() throws SQLException {
         Connection connection = getConnection();
 
         List<Authors> authorsList = new ArrayList<>();
 
-        String sql = "SELECT * FROM authors";
+        String sql = "SELECT * FROM authors ORDER BY id";
 
         Statement statement = null;
         try{
@@ -60,9 +68,11 @@ public class AuthorsDAO extends Util implements DAO<Authors, Long> {
 
                 authorsList.add(authors);
             }
+            logger.info("Get list of authors from DB");
         }
         catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         }
         finally {
             if (statement != null){
@@ -75,6 +85,7 @@ public class AuthorsDAO extends Util implements DAO<Authors, Long> {
         return authorsList;
     }
 
+    //получение автора по id
     @Override
     public Authors getByID(Long id) throws SQLException {
         Connection connection = getConnection();
@@ -94,8 +105,10 @@ public class AuthorsDAO extends Util implements DAO<Authors, Long> {
                 authors.setFirstname(resultSet.getString("firstname"));
                 authors.setLastname(resultSet.getString("lastname"));
             }
+            logger.info("Get author by ID from DB");
         } catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         } finally {
             if (preparedStatement != null){
                 preparedStatement.close();
@@ -107,6 +120,41 @@ public class AuthorsDAO extends Util implements DAO<Authors, Long> {
         return authors;
     }
 
+    //получение автора по имени и фамилии
+    public Authors getByFirstnameAndLastname(Authors authors) throws SQLException {
+        Connection connection = getConnection();
+
+        PreparedStatement preparedStatement = null;
+
+        String sql = "SELECT * FROM authors WHERE firstname=? AND lastname=?";
+
+        try{
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, authors.getFirstname());
+            preparedStatement.setString(2,authors.getLastname());
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                authors.setId(resultSet.getLong("id"));
+                authors.setFirstname(resultSet.getString("firstname"));
+                authors.setLastname(resultSet.getString("lastname"));
+            }
+            logger.info("Get author by F&L name from DB");
+        } catch (SQLException e){
+            e.printStackTrace();
+            logger.error(e);
+        } finally {
+            if (preparedStatement != null){
+                preparedStatement.close();
+            }
+            if (connection != null){
+                connection.close();
+            }
+        }
+        return authors;
+    }
+
+    //изменение автора
     @Override
     public void update(Authors authors) throws SQLException {
         Connection connection = getConnection();
@@ -123,8 +171,11 @@ public class AuthorsDAO extends Util implements DAO<Authors, Long> {
             preparedStatement.setLong(3, authors.getId());
 
             preparedStatement.executeUpdate();
+
+            logger.info("Update author from DB");
         } catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         } finally {
             if (preparedStatement != null){
                 preparedStatement.close();
@@ -135,6 +186,7 @@ public class AuthorsDAO extends Util implements DAO<Authors, Long> {
         }
     }
 
+    //удаление автора
     @Override
     public void remove(Authors authors) throws SQLException {
         Connection connection = getConnection();
@@ -150,8 +202,11 @@ public class AuthorsDAO extends Util implements DAO<Authors, Long> {
 
             preparedStatement.executeUpdate();
 
+            logger.info("Delete author from DB");
+
         } catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         } finally {
             if (preparedStatement != null) {
                 preparedStatement.close();

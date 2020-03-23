@@ -7,9 +7,13 @@ import lombok.NoArgsConstructor;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.log4j.Logger;
 
 @NoArgsConstructor
 public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords, Long> {
+    private static final Logger logger = Logger.getLogger(AccountingRecordsDAO.class);
+
+    //добавление
     @Override
     public void add(AccountingRecords accountingRecords) throws SQLException {
         Connection connection = getConnection();
@@ -28,9 +32,11 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
             preparedStatement.setString(5, accountingRecords.getStatus());
 
             preparedStatement.executeUpdate();
+            logger.info("Add accountingRecord to DB");
         }
         catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         }
         finally {
             if (preparedStatement != null){
@@ -42,13 +48,14 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
         }
     }
 
+    //получение листа всех записей
     @Override
     public List<AccountingRecords> getAll() throws SQLException {
         Connection connection = getConnection();
 
         List<AccountingRecords> accountingRecordsList = new ArrayList<>();
 
-        String sql = "SELECT * FROM accountingrecords";
+        String sql = "SELECT * FROM accountingrecords ORDER BY id";
 
         Statement statement = null;
         try{
@@ -67,9 +74,11 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
 
                 accountingRecordsList.add(accountingRecords);
             }
+            logger.info("Get list of accountingRecords from DB");
         }
         catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         }
         finally {
             if (statement != null){
@@ -82,6 +91,7 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
         return accountingRecordsList;
     }
 
+    //получение записи по ID
     @Override
     public AccountingRecords getByID(Long id) throws SQLException {
         Connection connection = getConnection();
@@ -104,8 +114,10 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
                 accountingRecords.setReturnDate(resultSet.getDate("returndate"));
                 accountingRecords.setStatus(resultSet.getString("status"));
             }
+            logger.info("Get accountingRecord by ID from DB");
         } catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         } finally {
             if (preparedStatement != null){
                 preparedStatement.close();
@@ -117,6 +129,7 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
         return accountingRecords;
     }
 
+    //получение листа записей по ID клиента
     public List<AccountingRecords> getAllByAccountID(Long id) throws SQLException {
         Connection connection = getConnection();
 
@@ -142,8 +155,10 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
 
                 accountingRecordsList.add(accountingRecords);
             }
+            logger.info("Get list of accountingRecords by clientID from DB");
         } catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         } finally {
             if (preparedStatement != null){
                 preparedStatement.close();
@@ -155,6 +170,7 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
         return accountingRecordsList;
     }
 
+    //получение листа записей по ID книги
     public List<AccountingRecords> getAllByBookID(Long id) throws SQLException {
         Connection connection = getConnection();
 
@@ -180,8 +196,10 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
 
                 accountingRecordsList.add(accountingRecords);
             }
+            logger.info("Get list of accountingRecords by bookID from DB");
         } catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         } finally {
             if (preparedStatement != null){
                 preparedStatement.close();
@@ -193,6 +211,7 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
         return accountingRecordsList;
     }
 
+    //изменение
     @Override
     public void update(AccountingRecords accountingRecords) throws SQLException {
         Connection connection = getConnection();
@@ -213,8 +232,11 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
             preparedStatement.setLong(6, accountingRecords.getId());
 
             preparedStatement.executeUpdate();
+
+            logger.info("Update accountingRecord from DB");
         } catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         } finally {
             if (preparedStatement != null){
                 preparedStatement.close();
@@ -225,6 +247,7 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
         }
     }
 
+    //удаление
     @Override
     public void remove(AccountingRecords accountingRecords) throws SQLException {
         Connection connection = getConnection();
@@ -240,8 +263,11 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
 
             preparedStatement.executeUpdate();
 
+            logger.info("Delete accountingRecord from DB");
+
         } catch (SQLException e){
             e.printStackTrace();
+            logger.error(e);
         } finally {
             if (preparedStatement != null) {
                 preparedStatement.close();

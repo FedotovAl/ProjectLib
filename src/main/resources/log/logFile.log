@@ -1,0 +1,4 @@
+2020-03-23 07:55:10 INFO  ClientDAO:68 - Get List of clients
+2020-03-23 08:07:23 INFO  ClientDAO:68 - Get List of clients
+2020-03-23 09:00:07 INFO  ClientService:82 - Show all clients
+2020-03-23 09:00:07 INFO  ClientDAO:69 - Get List of clients from DB

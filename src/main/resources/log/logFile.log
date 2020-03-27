@@ -2,3 +2,758 @@
 2020-03-23 08:07:23 INFO  ClientDAO:68 - Get List of clients
 2020-03-23 09:00:07 INFO  ClientService:82 - Show all clients
 2020-03-23 09:00:07 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 05:01:09 INFO  BooksService:135 - Show all books
+2020-03-27 05:01:09 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 05:01:09 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 05:01:09 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:01:09 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 05:01:09 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:01:09 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 05:01:09 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:01:09 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 05:01:09 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:01:09 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:02:04 INFO  BooksService:135 - Show all books
+2020-03-27 05:02:04 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 05:02:05 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 05:02:05 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:02:05 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 05:02:05 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:02:05 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 05:02:05 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:02:05 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 05:02:05 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:02:05 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:20:00 INFO  BooksService:57 - Get book by ID
+2020-03-27 05:20:01 INFO  BooksDAO:107 - Get book by ID from DB
+2020-03-27 05:37:30 INFO  BooksService:57 - Get book by ID
+2020-03-27 05:37:30 INFO  BooksDAO:107 - Get book by ID from DB
+2020-03-27 05:37:30 INFO  BooksService:134 - Print book with Author
+2020-03-27 05:37:30 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 05:37:30 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:38:00 INFO  BooksService:57 - Get book by ID
+2020-03-27 05:38:00 INFO  BooksDAO:107 - Get book by ID from DB
+2020-03-27 05:38:00 INFO  BooksService:134 - Print book with Author
+2020-03-27 05:38:00 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 05:38:00 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:38:00 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:38:11 INFO  BooksService:76 - Get book by name
+2020-03-27 05:38:11 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 05:38:11 INFO  BooksService:134 - Print book with Author
+2020-03-27 05:40:22 INFO  BooksService:76 - Get book by name
+2020-03-27 05:40:22 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 05:40:22 INFO  BooksService:134 - Print book with Author
+2020-03-27 05:41:23 INFO  BooksService:76 - Get book by name
+2020-03-27 05:41:23 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 05:41:23 INFO  BooksService:134 - Print book with Author
+2020-03-27 05:41:33 INFO  BooksService:76 - Get book by name
+2020-03-27 05:41:33 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 05:41:33 INFO  BooksService:134 - Print book with Author
+2020-03-27 05:42:35 INFO  BooksService:76 - Get book by name
+2020-03-27 05:42:36 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 05:42:36 INFO  BooksService:134 - Print book with Author
+2020-03-27 05:47:41 INFO  BooksService:76 - Get book by name
+2020-03-27 05:47:41 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 05:47:41 INFO  BooksService:134 - Print book with Author
+2020-03-27 05:53:54 INFO  BooksService:76 - Get book by name
+2020-03-27 05:53:55 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 05:53:55 INFO  BooksService:134 - Print book with Author
+2020-03-27 05:56:00 INFO  BooksService:57 - Get book by ID
+2020-03-27 05:56:00 INFO  BooksDAO:107 - Get book by ID from DB
+2020-03-27 05:56:00 INFO  BooksService:134 - Print book with Author
+2020-03-27 05:56:00 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 05:56:00 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 05:58:56 INFO  BooksService:76 - Get book by name
+2020-03-27 05:58:56 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 05:58:56 INFO  BooksService:134 - Print book with Author
+2020-03-27 06:01:14 INFO  BooksService:76 - Get book by name
+2020-03-27 06:01:14 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 06:01:14 INFO  BooksService:134 - Print book with Author
+2020-03-27 06:01:42 INFO  BooksService:76 - Get book by name
+2020-03-27 06:01:42 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 06:01:42 INFO  BooksService:134 - Print book with Author
+2020-03-27 06:04:28 INFO  BooksService:76 - Get book by name
+2020-03-27 06:04:28 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 06:04:28 INFO  BooksService:134 - Print book with Author
+2020-03-27 06:04:49 INFO  BooksService:76 - Get book by name
+2020-03-27 06:04:49 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 06:04:49 INFO  BooksService:134 - Print book with Author
+2020-03-27 06:05:41 INFO  BooksService:76 - Get book by name
+2020-03-27 06:05:41 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 06:05:41 INFO  BooksService:134 - Print book with Author
+2020-03-27 06:08:30 INFO  BooksService:162 - Show all books
+2020-03-27 06:08:30 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 06:08:30 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 06:08:30 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:08:30 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 06:08:30 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:08:30 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 06:08:30 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:08:30 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 06:08:30 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:08:30 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:08:49 INFO  BooksService:162 - Show all books
+2020-03-27 06:08:49 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 06:08:49 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 06:08:49 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:08:49 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 06:08:49 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:08:49 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 06:08:49 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:08:49 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 06:08:49 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:08:49 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:09:07 INFO  BooksService:76 - Get book by name
+2020-03-27 06:09:07 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 06:09:07 INFO  BooksService:134 - Print book with Author
+2020-03-27 06:09:07 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 06:09:07 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:09:07 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:09:32 INFO  BooksService:76 - Get book by name
+2020-03-27 06:09:32 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 06:09:32 INFO  BooksService:134 - Print book with Author
+2020-03-27 06:09:58 INFO  BooksService:76 - Get book by name
+2020-03-27 06:09:58 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 06:09:58 INFO  BooksService:134 - Print book with Author
+2020-03-27 06:12:31 INFO  BooksService:76 - Get book by name
+2020-03-27 06:12:31 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 06:12:31 INFO  BooksService:134 - Print book with Author
+2020-03-27 06:19:35 INFO  BooksService:76 - Get book by name
+2020-03-27 06:19:35 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 06:19:35 INFO  BooksService:134 - Print book with Author
+2020-03-27 06:21:03 INFO  BooksService:57 - Get book by ID
+2020-03-27 06:21:03 INFO  BooksDAO:107 - Get book by ID from DB
+2020-03-27 06:21:03 INFO  BooksService:134 - Print book with Author
+2020-03-27 06:21:03 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 06:21:03 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:48:47 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 06:48:47 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:48:47 INFO  BooksService:163 - Print all books by author
+2020-03-27 06:48:47 INFO  BooksAuthorsDAO:151 - Get list of booksAuthors records by authorID from DB
+2020-03-27 06:48:47 INFO  BooksDAO:107 - Get book by ID from DB
+2020-03-27 06:48:47 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 06:48:48 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 06:48:48 INFO  BooksDAO:107 - Get book by ID from DB
+2020-03-27 06:48:48 INFO  BooksAuthorsDAO:114 - Get list of booksAuthors records by bookID from DB
+2020-03-27 06:48:48 INFO  AuthorsDAO:108 - Get author by ID from DB
+2020-03-27 07:15:47 INFO  AccountingRecordsService:73 - Add new accounting record
+2020-03-27 07:15:47 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 07:15:47 INFO  AccountingRecordsDAO:199 - Get list of accountingRecords by bookID from DB
+2020-03-27 07:18:37 INFO  AccountingRecordsService:73 - Add new accounting record
+2020-03-27 07:18:37 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 07:18:37 INFO  AccountingRecordsDAO:199 - Get list of accountingRecords by bookID from DB
+2020-03-27 07:18:37 INFO  ClientDAO:106 - Get client by ID from DB
+2020-03-27 07:18:37 INFO  BooksDAO:107 - Get book by ID from DB
+2020-03-27 07:18:38 INFO  AccountingRecordsDAO:35 - Add accountingRecord to DB
+2020-03-27 07:19:29 INFO  AccountingRecordsService:73 - Add new accounting record
+2020-03-27 07:19:29 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 07:29:06 INFO  AccountingRecordsService:73 - Add new accounting record
+2020-03-27 07:29:06 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 07:29:06 INFO  AccountingRecordsDAO:202 - Get list of accountingRecords by bookID from DB
+2020-03-27 07:29:06 INFO  ClientDAO:106 - Get client by ID from DB
+2020-03-27 07:29:22 INFO  AccountingRecordsService:73 - Add new accounting record
+2020-03-27 07:29:23 INFO  BooksDAO:141 - Get book by name from DB
+2020-03-27 07:29:23 INFO  AccountingRecordsDAO:202 - Get list of accountingRecords by bookID from DB
+2020-03-27 07:29:23 INFO  ClientDAO:106 - Get client by ID from DB
+2020-03-27 07:35:15 INFO  AccountingRecordsService:73 - Add new accounting record
+2020-03-27 07:35:15 INFO  BooksDAO:147 - Get book by name from DB
+2020-03-27 07:35:15 INFO  AccountingRecordsDAO:210 - Get list of accountingRecords by bookID from DB
+2020-03-27 07:35:15 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 07:35:15 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 07:37:44 INFO  BooksService:187 - Show all books
+2020-03-27 07:37:45 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 07:37:45 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 07:37:45 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:37:45 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 07:37:45 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:37:45 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 07:37:45 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:37:45 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 07:37:45 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:37:45 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:38:15 INFO  BooksService:187 - Show all books
+2020-03-27 07:38:15 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 07:38:15 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 07:38:15 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:38:15 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 07:38:15 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:38:15 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 07:38:15 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:38:15 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 07:38:15 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:38:15 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:43:24 INFO  ClientService:82 - Show all clients
+2020-03-27 07:43:24 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 07:43:30 INFO  BooksService:187 - Show all books
+2020-03-27 07:43:30 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 07:43:30 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 07:43:30 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:43:30 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 07:43:30 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:43:30 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 07:43:30 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:43:30 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 07:43:30 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:43:30 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 07:43:41 INFO  AccountingRecordsService:73 - Add new accounting record
+2020-03-27 07:43:41 INFO  BooksDAO:147 - Get book by name from DB
+2020-03-27 07:43:41 INFO  AccountingRecordsDAO:210 - Get list of accountingRecords by bookID from DB
+2020-03-27 07:43:41 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 07:43:41 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 08:51:58 INFO  AuthorsService:16 - Add new author
+2020-03-27 08:51:59 INFO  AuthorsDAO:32 - Add author to DB
+2020-03-27 08:51:59 INFO  AuthorsService:83 - Show all authors
+2020-03-27 08:51:59 INFO  AuthorsDAO:71 - Get list of authors from DB
+2020-03-27 08:52:23 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 08:52:23 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 08:52:23 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 08:52:23 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 08:52:23 INFO  AuthorsService:47 - Delete author
+2020-03-27 08:52:23 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 08:52:23 ERROR BooksAuthorsDAO:240 - org.postgresql.util.PSQLException: ERROR: column "authorsid" does not exist
+  Позиция: 27
+2020-03-27 08:52:23 INFO  AuthorsDAO:208 - Delete author from DB
+2020-03-27 08:55:49 INFO  AuthorsService:83 - Show all authors
+2020-03-27 08:55:49 INFO  AuthorsDAO:71 - Get list of authors from DB
+2020-03-27 08:57:24 INFO  AuthorsService:16 - Add new author
+2020-03-27 08:57:24 INFO  AuthorsDAO:32 - Add author to DB
+2020-03-27 08:57:47 INFO  AuthorsService:83 - Show all authors
+2020-03-27 08:57:47 INFO  AuthorsDAO:71 - Get list of authors from DB
+2020-03-27 08:58:14 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 08:58:14 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 08:59:13 INFO  AuthorsService:83 - Show all authors
+2020-03-27 08:59:13 INFO  AuthorsDAO:71 - Get list of authors from DB
+2020-03-27 08:59:19 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 08:59:19 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 08:59:19 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 08:59:19 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 08:59:19 INFO  AuthorsService:47 - Delete author
+2020-03-27 08:59:19 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 08:59:19 ERROR BooksAuthorsDAO:240 - org.postgresql.util.PSQLException: ERROR: column "authorsid" does not exist
+  Позиция: 27
+2020-03-27 08:59:19 INFO  AuthorsDAO:208 - Delete author from DB
+2020-03-27 09:02:44 INFO  BooksService:187 - Show all books
+2020-03-27 09:02:44 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 09:02:44 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:02:44 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:02:44 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:02:45 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:02:45 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:02:45 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:02:45 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:02:45 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:02:45 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:02:52 INFO  BooksService:57 - Get book by ID
+2020-03-27 09:02:52 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 09:02:52 INFO  BooksService:57 - Get book by ID
+2020-03-27 09:02:52 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 09:02:52 INFO  BooksService:99 - Delete book
+2020-03-27 09:02:52 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 09:02:52 INFO  BooksAuthorsDAO:203 - Delete booksAuthors record by bookID from DB
+2020-03-27 09:02:52 ERROR BooksDAO:252 - org.postgresql.util.PSQLException: ERROR: update or delete on table "books" violates foreign key constraint "accountingrecords_bookid_fkey" on table "accountingrecords"
+  Подробности: Key (id)=(3) is still referenced from table "accountingrecords".
+2020-03-27 09:07:28 INFO  BooksService:25 - Add new book
+2020-03-27 09:07:29 INFO  BooksDAO:31 - Add book to DB
+2020-03-27 09:07:29 INFO  BooksDAO:147 - Get book by name from DB
+2020-03-27 09:07:29 INFO  AuthorsDAO:145 - Get author by F&L name from DB
+2020-03-27 09:07:29 ERROR AuthorsDAO:36 - org.postgresql.util.PSQLException: ERROR: null value in column "firstname" violates not-null constraint
+  Подробности: Failing row contains (7, null, Кинг).
+2020-03-27 09:07:29 INFO  AuthorsDAO:145 - Get author by F&L name from DB
+2020-03-27 09:10:31 INFO  AuthorsService:83 - Show all authors
+2020-03-27 09:10:31 INFO  AuthorsDAO:71 - Get list of authors from DB
+2020-03-27 09:12:36 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 09:12:36 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:12:46 INFO  AuthorsService:83 - Show all authors
+2020-03-27 09:12:46 INFO  AuthorsDAO:71 - Get list of authors from DB
+2020-03-27 09:12:54 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 09:12:54 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:13:01 INFO  AuthorsService:66 - Update author
+2020-03-27 09:13:01 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:13:01 INFO  AuthorsDAO:178 - Update author from DB
+2020-03-27 09:13:05 INFO  AuthorsService:83 - Show all authors
+2020-03-27 09:13:05 INFO  AuthorsDAO:71 - Get list of authors from DB
+2020-03-27 09:13:08 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 09:13:08 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:13:14 INFO  AuthorsService:66 - Update author
+2020-03-27 09:13:14 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:13:14 INFO  AuthorsDAO:178 - Update author from DB
+2020-03-27 09:13:17 INFO  AuthorsService:83 - Show all authors
+2020-03-27 09:13:17 INFO  AuthorsDAO:71 - Get list of authors from DB
+2020-03-27 09:13:34 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 09:13:34 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:13:44 INFO  AuthorsService:66 - Update author
+2020-03-27 09:13:44 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:13:44 INFO  AuthorsDAO:178 - Update author from DB
+2020-03-27 09:14:07 INFO  AuthorsService:16 - Add new author
+2020-03-27 09:14:07 INFO  AuthorsDAO:32 - Add author to DB
+2020-03-27 09:14:13 INFO  AuthorsService:83 - Show all authors
+2020-03-27 09:14:13 INFO  AuthorsDAO:71 - Get list of authors from DB
+2020-03-27 09:14:17 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 09:14:17 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:14:17 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 09:14:17 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:14:17 INFO  AuthorsService:47 - Delete author
+2020-03-27 09:14:17 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:14:17 ERROR BooksAuthorsDAO:240 - org.postgresql.util.PSQLException: ERROR: column "authorsid" does not exist
+  Позиция: 27
+2020-03-27 09:14:17 INFO  AuthorsDAO:208 - Delete author from DB
+2020-03-27 09:18:25 INFO  AuthorsService:16 - Add new author
+2020-03-27 09:18:25 INFO  AuthorsDAO:32 - Add author to DB
+2020-03-27 09:24:18 INFO  AuthorsService:16 - Add new author
+2020-03-27 09:24:18 INFO  AuthorsDAO:32 - Add author to DB
+2020-03-27 09:24:20 INFO  AuthorsService:85 - Show all authors
+2020-03-27 09:24:20 INFO  AuthorsDAO:71 - Get list of authors from DB
+2020-03-27 09:24:27 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 09:24:27 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:24:27 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 09:24:27 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:24:27 INFO  AuthorsService:47 - Delete author
+2020-03-27 09:24:27 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:24:27 INFO  BooksAuthorsDAO:159 - Get list of booksAuthors records by authorID from DB
+2020-03-27 09:24:27 INFO  AuthorsDAO:208 - Delete author from DB
+2020-03-27 09:24:30 INFO  AuthorsService:85 - Show all authors
+2020-03-27 09:24:30 INFO  AuthorsDAO:71 - Get list of authors from DB
+2020-03-27 09:52:48 INFO  AuthorsService:16 - Add new author
+2020-03-27 09:52:48 INFO  AuthorsDAO:32 - Add author to DB
+2020-03-27 09:52:50 INFO  AuthorsService:85 - Show all authors
+2020-03-27 09:52:50 INFO  AuthorsDAO:71 - Get list of authors from DB
+2020-03-27 09:52:54 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 09:52:54 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:52:54 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 09:52:54 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:52:54 INFO  AuthorsService:47 - Delete author
+2020-03-27 09:52:54 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:52:54 INFO  BooksAuthorsDAO:159 - Get list of booksAuthors records by authorID from DB
+2020-03-27 09:52:54 INFO  AuthorsDAO:208 - Delete author from DB
+2020-03-27 09:53:35 INFO  BooksService:27 - Add new book
+2020-03-27 09:53:35 INFO  BooksDAO:31 - Add book to DB
+2020-03-27 09:53:35 INFO  BooksDAO:147 - Get book by name from DB
+2020-03-27 09:53:35 INFO  AuthorsDAO:145 - Get author by F&L name from DB
+2020-03-27 09:53:35 ERROR AuthorsDAO:36 - org.postgresql.util.PSQLException: ERROR: null value in column "firstname" violates not-null constraint
+  Подробности: Failing row contains (12, null, Лосев).
+2020-03-27 09:53:35 INFO  AuthorsDAO:145 - Get author by F&L name from DB
+2020-03-27 09:55:15 INFO  BooksService:197 - Show all books
+2020-03-27 09:55:15 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 09:55:15 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:15 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:55:15 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:15 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:55:15 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:15 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:15 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:55:15 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:55:15 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:15 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:28 INFO  BooksService:59 - Get book by ID
+2020-03-27 09:55:28 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 09:55:28 INFO  BooksService:59 - Get book by ID
+2020-03-27 09:55:28 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 09:55:28 INFO  BooksService:101 - Delete book
+2020-03-27 09:55:28 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 09:55:28 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:28 INFO  AccountingRecordsDAO:210 - Get list of accountingRecords by bookID from DB
+2020-03-27 09:55:28 INFO  BooksDAO:248 - Delete book from DB
+2020-03-27 09:55:31 INFO  BooksService:197 - Show all books
+2020-03-27 09:55:31 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 09:55:31 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:31 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:55:31 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:31 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:55:31 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:31 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:31 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:55:31 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:55:31 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:34 INFO  BooksService:59 - Get book by ID
+2020-03-27 09:55:34 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 09:55:34 INFO  BooksService:59 - Get book by ID
+2020-03-27 09:55:34 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 09:55:34 INFO  BooksService:101 - Delete book
+2020-03-27 09:55:34 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 09:55:34 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:34 INFO  AccountingRecordsDAO:210 - Get list of accountingRecords by bookID from DB
+2020-03-27 09:55:34 INFO  BooksDAO:248 - Delete book from DB
+2020-03-27 09:55:49 INFO  BooksService:197 - Show all books
+2020-03-27 09:55:49 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 09:55:49 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:49 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:55:49 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:49 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:55:49 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:49 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:49 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:55:49 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 09:55:51 INFO  BooksService:59 - Get book by ID
+2020-03-27 09:55:51 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 09:55:51 INFO  BooksService:59 - Get book by ID
+2020-03-27 09:55:51 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 09:55:51 INFO  BooksService:101 - Delete book
+2020-03-27 09:55:51 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 09:55:51 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 09:55:51 INFO  AccountingRecordsDAO:210 - Get list of accountingRecords by bookID from DB
+2020-03-27 09:55:51 INFO  BooksDAO:248 - Delete book from DB
+2020-03-27 10:00:35 INFO  BooksService:27 - Add new book
+2020-03-27 10:00:35 INFO  BooksDAO:31 - Add book to DB
+2020-03-27 10:00:35 INFO  BooksDAO:147 - Get book by name from DB
+2020-03-27 10:00:35 INFO  AuthorsDAO:145 - Get author by F&L name from DB
+2020-03-27 10:00:35 INFO  BooksAuthorsDAO:32 - Add booksAuthors record to DB
+2020-03-27 10:17:24 INFO  AccountingRecordsService:214 - Show all accounting records which open
+2020-03-27 10:17:25 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:17:31 INFO  AccountingRecordsService:100 - Get accounting record by ID
+2020-03-27 10:17:31 INFO  AccountingRecordsDAO:121 - Get accountingRecord by ID from DB
+2020-03-27 10:17:31 INFO  AccountingRecordsService:154 - Close accounting records status
+2020-03-27 10:21:58 INFO  AccountingRecordsService:181 - Show all accounting records
+2020-03-27 10:21:59 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:21:59 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:21:59 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:22:24 INFO  AccountingRecordsService:218 - Show all accounting records which open
+2020-03-27 10:22:24 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:22:28 INFO  AccountingRecordsService:100 - Get accounting record by ID
+2020-03-27 10:22:28 INFO  AccountingRecordsDAO:121 - Get accountingRecord by ID from DB
+2020-03-27 10:22:28 INFO  AccountingRecordsService:154 - Close accounting records status
+2020-03-27 10:22:28 INFO  AccountingRecordsService:181 - Show all accounting records
+2020-03-27 10:22:28 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:22:28 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:22:28 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:24:34 INFO  AccountingRecordsService:47 - Check all records status
+2020-03-27 10:24:34 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:24:39 INFO  ClientService:90 - Show all clients
+2020-03-27 10:24:39 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:24:46 INFO  BooksService:197 - Show all books
+2020-03-27 10:24:46 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 10:24:46 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:24:46 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:24:46 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:24:46 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:24:46 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:24:46 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:24:46 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:24:46 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:24:46 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:24:56 INFO  AccountingRecordsService:73 - Add new accounting record
+2020-03-27 10:24:56 INFO  BooksDAO:147 - Get book by name from DB
+2020-03-27 10:24:56 INFO  AccountingRecordsDAO:210 - Get list of accountingRecords by bookID from DB
+2020-03-27 10:24:56 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:24:56 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:25:11 INFO  AccountingRecordsService:47 - Check all records status
+2020-03-27 10:25:11 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:25:14 INFO  ClientService:90 - Show all clients
+2020-03-27 10:25:15 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:25:16 INFO  BooksService:197 - Show all books
+2020-03-27 10:25:16 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 10:25:16 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:25:16 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:25:16 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:25:16 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:25:16 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:25:16 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:25:16 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:25:16 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:25:16 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:25:31 INFO  AccountingRecordsService:73 - Add new accounting record
+2020-03-27 10:25:31 INFO  BooksDAO:147 - Get book by name from DB
+2020-03-27 10:25:31 INFO  AccountingRecordsDAO:210 - Get list of accountingRecords by bookID from DB
+2020-03-27 10:25:31 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:25:31 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:25:31 INFO  AccountingRecordsDAO:35 - Add accountingRecord to DB
+2020-03-27 10:25:38 INFO  AccountingRecordsService:181 - Show all accounting records
+2020-03-27 10:25:38 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:25:38 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:25:38 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:25:38 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:25:38 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:25:54 INFO  AccountingRecordsService:218 - Show all accounting records which open
+2020-03-27 10:25:54 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:25:54 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:25:54 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:26:07 INFO  AccountingRecordsService:100 - Get accounting record by ID
+2020-03-27 10:26:07 INFO  AccountingRecordsDAO:121 - Get accountingRecord by ID from DB
+2020-03-27 10:26:07 INFO  AccountingRecordsService:154 - Close accounting records status
+2020-03-27 10:26:07 INFO  AccountingRecordsService:181 - Show all accounting records
+2020-03-27 10:26:07 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:26:07 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:26:07 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:26:07 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:26:07 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:26:11 INFO  AccountingRecordsService:218 - Show all accounting records which open
+2020-03-27 10:26:11 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:26:11 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:26:11 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:26:13 INFO  AccountingRecordsService:100 - Get accounting record by ID
+2020-03-27 10:26:13 INFO  AccountingRecordsDAO:121 - Get accountingRecord by ID from DB
+2020-03-27 10:26:13 INFO  AccountingRecordsService:154 - Close accounting records status
+2020-03-27 10:26:13 INFO  AccountingRecordsDAO:121 - Get accountingRecord by ID from DB
+2020-03-27 10:26:13 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:26:13 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:26:13 INFO  AccountingRecordsDAO:247 - Update accountingRecord from DB
+2020-03-27 10:26:13 INFO  AccountingRecordsService:181 - Show all accounting records
+2020-03-27 10:26:13 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:26:13 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:26:13 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:26:13 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:26:13 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:26:16 INFO  AccountingRecordsService:218 - Show all accounting records which open
+2020-03-27 10:26:16 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:26:18 INFO  AccountingRecordsService:100 - Get accounting record by ID
+2020-03-27 10:26:18 INFO  AccountingRecordsDAO:121 - Get accountingRecord by ID from DB
+2020-03-27 10:26:18 INFO  AccountingRecordsService:154 - Close accounting records status
+2020-03-27 10:26:18 INFO  AccountingRecordsService:181 - Show all accounting records
+2020-03-27 10:26:18 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:26:18 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:26:18 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:26:18 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:26:18 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:26:24 INFO  ClientService:90 - Show all clients
+2020-03-27 10:26:24 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:26:57 INFO  ClientService:17 - Add new client
+2020-03-27 10:26:57 INFO  ClientDAO:30 - Add client to DB
+2020-03-27 10:26:57 INFO  ClientService:90 - Show all clients
+2020-03-27 10:26:57 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:27:07 INFO  AccountingRecordsService:47 - Check all records status
+2020-03-27 10:27:07 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:27:09 INFO  ClientService:90 - Show all clients
+2020-03-27 10:27:09 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:27:13 INFO  BooksService:197 - Show all books
+2020-03-27 10:27:13 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 10:27:13 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:27:13 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:27:13 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:27:13 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:27:13 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:27:13 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:27:13 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:27:13 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:27:13 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:27:26 INFO  AccountingRecordsService:73 - Add new accounting record
+2020-03-27 10:27:26 INFO  BooksDAO:147 - Get book by name from DB
+2020-03-27 10:27:26 INFO  AccountingRecordsDAO:210 - Get list of accountingRecords by bookID from DB
+2020-03-27 10:27:26 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:27:26 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:27:28 INFO  ClientService:90 - Show all clients
+2020-03-27 10:27:28 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:27:31 INFO  BooksService:197 - Show all books
+2020-03-27 10:27:31 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 10:27:31 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:27:31 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:27:31 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:27:31 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:27:31 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:27:31 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:27:31 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:27:31 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:27:31 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:27:38 INFO  AccountingRecordsService:73 - Add new accounting record
+2020-03-27 10:27:38 INFO  BooksDAO:147 - Get book by name from DB
+2020-03-27 10:27:38 INFO  AccountingRecordsDAO:210 - Get list of accountingRecords by bookID from DB
+2020-03-27 10:27:38 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:27:38 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:27:38 INFO  AccountingRecordsDAO:35 - Add accountingRecord to DB
+2020-03-27 10:27:49 INFO  ClientService:90 - Show all clients
+2020-03-27 10:27:49 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:27:51 INFO  ClientService:90 - Show all clients
+2020-03-27 10:27:51 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:27:53 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:27:53 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:27:53 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:27:53 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:27:53 INFO  ClientService:50 - Delete client
+2020-03-27 10:27:53 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:27:53 INFO  AccountingRecordsDAO:166 - Get list of accountingRecords by clientID from DB
+2020-03-27 10:27:53 ERROR AccountingRecordsDAO:250 - org.postgresql.util.PSQLException: ERROR: insert or update on table "accountingrecords" violates foreign key constraint "accountingrecords_accountid_fkey"
+  Подробности: Key (accountid)=(0) is not present in table "clients".
+2020-03-27 10:27:53 ERROR ClientDAO:177 - org.postgresql.util.PSQLException: ERROR: update or delete on table "clients" violates foreign key constraint "accountingrecords_accountid_fkey" on table "accountingrecords"
+  Подробности: Key (id)=(5) is still referenced from table "accountingrecords".
+2020-03-27 10:27:53 INFO  ClientService:90 - Show all clients
+2020-03-27 10:27:53 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:28:16 INFO  ClientService:90 - Show all clients
+2020-03-27 10:28:16 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:28:23 INFO  AccountingRecordsService:181 - Show all accounting records
+2020-03-27 10:28:23 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:28:23 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:28:23 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:28:23 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:28:23 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:28:23 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:28:23 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:29:49 INFO  AccountingRecordsService:181 - Show all accounting records
+2020-03-27 10:29:49 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:29:49 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:29:49 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:29:49 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:29:49 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:29:49 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:29:49 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:29:51 INFO  AccountingRecordsService:218 - Show all accounting records which open
+2020-03-27 10:29:51 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:29:51 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:29:51 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:29:51 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:29:51 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:30:02 INFO  AccountingRecordsService:100 - Get accounting record by ID
+2020-03-27 10:30:02 INFO  AccountingRecordsDAO:121 - Get accountingRecord by ID from DB
+2020-03-27 10:30:02 INFO  AccountingRecordsService:154 - Close accounting records status
+2020-03-27 10:30:02 INFO  AccountingRecordsDAO:121 - Get accountingRecord by ID from DB
+2020-03-27 10:30:02 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:30:02 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:30:02 INFO  AccountingRecordsDAO:247 - Update accountingRecord from DB
+2020-03-27 10:30:02 INFO  AccountingRecordsService:181 - Show all accounting records
+2020-03-27 10:30:02 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:30:02 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:30:02 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:30:02 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:30:02 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:30:02 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:30:02 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:30:27 INFO  AccountingRecordsService:47 - Check all records status
+2020-03-27 10:30:27 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:30:32 INFO  ClientService:90 - Show all clients
+2020-03-27 10:30:32 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:30:39 INFO  BooksService:197 - Show all books
+2020-03-27 10:30:39 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 10:30:39 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:30:39 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:30:39 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:30:39 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:30:39 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:30:39 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:30:39 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:30:39 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 10:30:39 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 10:30:54 INFO  AccountingRecordsService:73 - Add new accounting record
+2020-03-27 10:30:54 INFO  BooksDAO:147 - Get book by name from DB
+2020-03-27 10:30:54 INFO  AccountingRecordsDAO:210 - Get list of accountingRecords by bookID from DB
+2020-03-27 10:30:54 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:30:54 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:33:23 INFO  ClientService:90 - Show all clients
+2020-03-27 10:33:23 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:33:24 INFO  ClientService:90 - Show all clients
+2020-03-27 10:33:24 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:33:30 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:33:30 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:33:30 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:33:30 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:33:30 INFO  ClientService:50 - Delete client
+2020-03-27 10:33:30 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:33:30 INFO  AccountingRecordsDAO:166 - Get list of accountingRecords by clientID from DB
+2020-03-27 10:33:30 ERROR AccountingRecordsDAO:250 - org.postgresql.util.PSQLException: ERROR: insert or update on table "accountingrecords" violates foreign key constraint "accountingrecords_accountid_fkey"
+  Подробности: Key (accountid)=(0) is not present in table "clients".
+2020-03-27 10:33:30 ERROR ClientDAO:177 - org.postgresql.util.PSQLException: ERROR: update or delete on table "clients" violates foreign key constraint "accountingrecords_accountid_fkey" on table "accountingrecords"
+  Подробности: Key (id)=(5) is still referenced from table "accountingrecords".
+2020-03-27 10:33:30 INFO  ClientService:90 - Show all clients
+2020-03-27 10:33:30 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:33:54 INFO  ClientService:90 - Show all clients
+2020-03-27 10:33:54 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:33:55 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:33:55 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:33:55 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:33:55 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:33:55 INFO  ClientService:50 - Delete client
+2020-03-27 10:33:55 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:33:55 INFO  AccountingRecordsDAO:166 - Get list of accountingRecords by clientID from DB
+2020-03-27 10:33:55 ERROR AccountingRecordsDAO:250 - org.postgresql.util.PSQLException: ERROR: insert or update on table "accountingrecords" violates foreign key constraint "accountingrecords_accountid_fkey"
+  Подробности: Key (accountid)=(0) is not present in table "clients".
+2020-03-27 10:33:55 ERROR ClientDAO:177 - org.postgresql.util.PSQLException: ERROR: update or delete on table "clients" violates foreign key constraint "accountingrecords_accountid_fkey" on table "accountingrecords"
+  Подробности: Key (id)=(5) is still referenced from table "accountingrecords".
+2020-03-27 10:33:55 INFO  ClientService:90 - Show all clients
+2020-03-27 10:33:55 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:33:56 INFO  ClientService:90 - Show all clients
+2020-03-27 10:33:56 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:33:58 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:33:58 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:33:58 INFO  ClientService:90 - Show all clients
+2020-03-27 10:33:58 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:34:00 INFO  ClientService:90 - Show all clients
+2020-03-27 10:34:00 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:34:01 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:34:01 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:34:01 INFO  ClientService:90 - Show all clients
+2020-03-27 10:34:01 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:34:03 INFO  ClientService:90 - Show all clients
+2020-03-27 10:34:03 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:34:04 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:34:04 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:34:04 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:34:04 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:34:04 INFO  ClientService:50 - Delete client
+2020-03-27 10:34:04 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:34:04 INFO  AccountingRecordsDAO:166 - Get list of accountingRecords by clientID from DB
+2020-03-27 10:34:04 ERROR AccountingRecordsDAO:250 - org.postgresql.util.PSQLException: ERROR: insert or update on table "accountingrecords" violates foreign key constraint "accountingrecords_accountid_fkey"
+  Подробности: Key (accountid)=(0) is not present in table "clients".
+2020-03-27 10:34:04 ERROR ClientDAO:177 - org.postgresql.util.PSQLException: ERROR: update or delete on table "clients" violates foreign key constraint "accountingrecords_accountid_fkey" on table "accountingrecords"
+  Подробности: Key (id)=(5) is still referenced from table "accountingrecords".
+2020-03-27 10:34:04 INFO  ClientService:90 - Show all clients
+2020-03-27 10:34:04 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:35:08 INFO  ClientService:90 - Show all clients
+2020-03-27 10:35:08 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:35:09 INFO  ClientService:90 - Show all clients
+2020-03-27 10:35:09 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:35:11 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:35:11 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:35:11 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:35:11 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:35:11 INFO  ClientService:50 - Delete client
+2020-03-27 10:35:11 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:35:11 INFO  AccountingRecordsDAO:166 - Get list of accountingRecords by clientID from DB
+2020-03-27 10:41:18 INFO  ClientService:90 - Show all clients
+2020-03-27 10:41:18 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:41:19 INFO  ClientService:90 - Show all clients
+2020-03-27 10:41:19 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:41:21 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:41:21 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:41:21 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:41:21 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:41:21 INFO  ClientService:50 - Delete client
+2020-03-27 10:41:21 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:41:21 INFO  AccountingRecordsDAO:166 - Get list of accountingRecords by clientID from DB
+2020-03-27 10:41:21 ERROR AccountingRecordsDAO:250 - org.postgresql.util.PSQLException: ERROR: insert or update on table "accountingrecords" violates foreign key constraint "accountingrecords_accountid_fkey"
+  Подробности: Key (accountid)=(1000000) is not present in table "clients".
+2020-03-27 10:41:21 ERROR ClientDAO:177 - org.postgresql.util.PSQLException: ERROR: update or delete on table "clients" violates foreign key constraint "accountingrecords_accountid_fkey" on table "accountingrecords"
+  Подробности: Key (id)=(5) is still referenced from table "accountingrecords".
+2020-03-27 10:41:21 INFO  ClientService:90 - Show all clients
+2020-03-27 10:41:21 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:48:19 INFO  AccountingRecordsService:47 - Check all records status
+2020-03-27 10:48:19 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:48:24 INFO  ClientService:88 - Show all clients
+2020-03-27 10:48:24 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:48:26 INFO  ClientService:88 - Show all clients
+2020-03-27 10:48:26 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:48:27 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:48:27 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:48:27 INFO  ClientService:30 - Get client by ID
+2020-03-27 10:48:27 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:48:27 INFO  ClientService:50 - Delete client
+2020-03-27 10:48:27 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:48:27 INFO  AccountingRecordsDAO:166 - Get list of accountingRecords by clientID from DB
+2020-03-27 10:48:27 INFO  AccountingRecordsDAO:277 - Delete accountingRecord from DB
+2020-03-27 10:48:27 INFO  ClientDAO:173 - Delete client from DB
+2020-03-27 10:48:27 INFO  ClientService:88 - Show all clients
+2020-03-27 10:48:27 INFO  ClientDAO:69 - Get List of clients from DB
+2020-03-27 10:48:36 INFO  AccountingRecordsService:181 - Show all accounting records
+2020-03-27 10:48:36 INFO  AccountingRecordsDAO:77 - Get list of accountingRecords from DB
+2020-03-27 10:48:36 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:48:36 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 10:48:36 INFO  ClientDAO:110 - Get client by ID from DB
+2020-03-27 10:48:36 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 13:09:36 INFO  BooksService:195 - Show all books
+2020-03-27 13:09:36 INFO  BooksDAO:70 - Get list of books from DB
+2020-03-27 13:09:36 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 13:09:36 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 13:09:36 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 13:09:36 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 13:09:36 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 13:09:36 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 13:09:36 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 13:09:36 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 13:09:37 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 13:11:28 INFO  AuthorsService:85 - Show all authors
+2020-03-27 13:11:28 INFO  AuthorsDAO:71 - Get list of authors from DB
+2020-03-27 13:11:32 INFO  AuthorsService:29 - Get author by ID
+2020-03-27 13:11:32 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 13:11:32 INFO  BooksService:171 - Print all books by author
+2020-03-27 13:11:32 INFO  BooksAuthorsDAO:159 - Get list of booksAuthors records by authorID from DB
+2020-03-27 13:11:32 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 13:11:32 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 13:11:32 INFO  AuthorsDAO:111 - Get author by ID from DB
+2020-03-27 13:11:32 INFO  BooksDAO:110 - Get book by ID from DB
+2020-03-27 13:11:32 INFO  BooksAuthorsDAO:118 - Get list of booksAuthors records by bookID from DB
+2020-03-27 13:11:32 INFO  AuthorsDAO:111 - Get author by ID from DB

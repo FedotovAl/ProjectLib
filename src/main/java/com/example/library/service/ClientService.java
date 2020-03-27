@@ -1,6 +1,8 @@
 package com.example.library.service;
 
+import com.example.library.dao.AccountingRecordsDAO;
 import com.example.library.dao.ClientDAO;
+import com.example.library.entity.AccountingRecords;
 import com.example.library.entity.Client;
 
 import java.sql.SQLException;
@@ -47,8 +49,12 @@ public class ClientService {
     public void removeClient(Client client){
         logger.info("Delete client");
         ClientDAO clientDAO = new ClientDAO();
+        AccountingRecordsDAO accountingRecordsDAO = new AccountingRecordsDAO();
         try {
             if (clientDAO.getByID(client.getId()).getId() != null){
+                for (AccountingRecords ar : accountingRecordsDAO.getAllByAccountID(client.getId())){
+                    accountingRecordsDAO.remove(ar);
+                }
                 clientDAO.remove(client);
                 System.out.println("Removing is completed");
             } else{

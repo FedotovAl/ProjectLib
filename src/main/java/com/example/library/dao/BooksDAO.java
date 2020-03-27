@@ -90,6 +90,9 @@ public class BooksDAO extends Util implements DAO<Books, Long> {
         Connection connection = getConnection();
 
         PreparedStatement preparedStatement = null;
+        if (id == null){
+            id = 0L;
+        }
 
         String sql = "SELECT * FROM books WHERE id=?";
 
@@ -128,29 +131,33 @@ public class BooksDAO extends Util implements DAO<Books, Long> {
         String sql = "SELECT * FROM books WHERE name=?";
 
         Books books = new Books();
-        try{
-            preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setString(1, name);
+        if (name == null) {
+            return books;
+        } else {
+            try {
+                preparedStatement = connection.prepareStatement(sql);
+                preparedStatement.setString(1, name);
 
-            ResultSet resultSet = preparedStatement.executeQuery();
-            if (resultSet.next()) {
-                books.setId(resultSet.getLong("id"));
-                books.setName(resultSet.getString("name"));
-                books.setCategory(resultSet.getString("category"));
+                ResultSet resultSet = preparedStatement.executeQuery();
+                if (resultSet.next()) {
+                    books.setId(resultSet.getLong("id"));
+                    books.setName(resultSet.getString("name"));
+                    books.setCategory(resultSet.getString("category"));
+                }
+                logger.info("Get book by name from DB");
+            } catch (SQLException e) {
+                e.printStackTrace();
+                logger.error(e);
+            } finally {
+                if (preparedStatement != null) {
+                    preparedStatement.close();
+                }
+                if (connection != null) {
+                    connection.close();
+                }
             }
-            logger.info("Get book by name from DB");
-        } catch (SQLException e){
-            e.printStackTrace();
-            logger.error(e);
-        } finally {
-            if (preparedStatement != null){
-                preparedStatement.close();
-            }
-            if (connection != null){
-                connection.close();
-            }
+            return books;
         }
-        return books;
     }
 
     //Получение листа книг по категории

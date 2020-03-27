@@ -92,6 +92,9 @@ public class AuthorsDAO extends Util implements DAO<Authors, Long> {
 
         PreparedStatement preparedStatement = null;
 
+        if (id == null){
+            id = 0L;
+        }
         String sql = "SELECT * FROM authors WHERE id=?";
 
         Authors authors = new Authors();

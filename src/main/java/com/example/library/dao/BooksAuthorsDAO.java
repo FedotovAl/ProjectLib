@@ -95,6 +95,10 @@ public class BooksAuthorsDAO extends Util implements DAO<BooksAuthors, Long>{
 
         PreparedStatement preparedStatement = null;
 
+        if (id == null){
+            id = 0L;
+        }
+
         String sql = "SELECT * FROM books_authors WHERE booksid=?";
 
         List<BooksAuthors> booksAuthorsList = new ArrayList<>();
@@ -131,6 +135,10 @@ public class BooksAuthorsDAO extends Util implements DAO<BooksAuthors, Long>{
         Connection connection = getConnection();
 
         PreparedStatement preparedStatement = null;
+
+        if (id == null){
+            id = 0L;
+        }
 
         String sql = "SELECT * FROM books_authors WHERE authorsid=?";
 
@@ -179,6 +187,10 @@ public class BooksAuthorsDAO extends Util implements DAO<BooksAuthors, Long>{
 
         PreparedStatement preparedStatement = null;
 
+        if (id == null){
+            id = 0L;
+        }
+
         String sql = "DELETE FROM books_authors WHERE booksid=?";
 
         try{
@@ -207,6 +219,10 @@ public class BooksAuthorsDAO extends Util implements DAO<BooksAuthors, Long>{
         Connection connection = getConnection();
 
         PreparedStatement preparedStatement = null;
+
+        if (id == null){
+            id = 0L;
+        }
 
         String sql = "DELETE FROM clients WHERE authorsid=?";
 

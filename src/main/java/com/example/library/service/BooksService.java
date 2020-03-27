@@ -1,8 +1,10 @@
 package com.example.library.service;
 
+import com.example.library.dao.AccountingRecordsDAO;
 import com.example.library.dao.AuthorsDAO;
 import com.example.library.dao.BooksAuthorsDAO;
 import com.example.library.dao.BooksDAO;
+import com.example.library.entity.AccountingRecords;
 import com.example.library.entity.Authors;
 import com.example.library.entity.Books;
 import com.example.library.entity.BooksAuthors;
@@ -99,9 +101,15 @@ public class BooksService {
         logger.info("Delete book");
         BooksDAO booksDAO = new BooksDAO();
         BooksAuthorsDAO booksAuthorsDAO = new BooksAuthorsDAO();
+        AccountingRecordsDAO accountingRecordsDAO = new AccountingRecordsDAO();
         try {
             if (booksDAO.getByID(books.getId()).getId() != null){
-                booksAuthorsDAO.removeByBookID(books.getId());
+                if (booksAuthorsDAO.getAllByBookID(books.getId()).size() != 0) {
+                    booksAuthorsDAO.removeByBookID(books.getId());
+                }
+                for (AccountingRecords ar : accountingRecordsDAO.getAllByAccountID(books.getId())){
+                    accountingRecordsDAO.remove(ar);
+                }
                 booksDAO.remove(books);
                 System.out.println("Removing is completed");
             } else{
@@ -125,6 +133,58 @@ public class BooksService {
                 System.out.println("Book does not exist");
             }
         } catch (SQLException e) {
+            e.printStackTrace();
+            logger.error(e);
+        }
+    }
+
+    private static void printWithAuthor(Books books) {
+        if (books != null) {
+            BooksAuthorsDAO booksAuthorsDAO = new BooksAuthorsDAO();
+            try {
+                List<BooksAuthors> booksAuthorsList = booksAuthorsDAO.getAllByBookID(books.getId());
+                if (booksAuthorsList.size() == 0) {
+                    System.out.println("\tList is empty");
+                    System.out.println();
+                } else {
+                    System.out.println("\t" + books);
+                    System.out.println("\tAuthors of " + books.getName() + " :");
+                    AuthorsDAO authorsDAO = new AuthorsDAO();
+                    for (BooksAuthors b : booksAuthorsList) {
+                        System.out.println("\t" + authorsDAO.getByID(b.getAuthorsId()));
+                    }
+                    System.out.println();
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+                logger.error(e);
+            }
+        }
+    }
+
+    public void printBook(Books books){
+        logger.info("Print book with Author");
+        printWithAuthor(books);
+    }
+
+    public void printAllBooksByAuthor(Authors authors){
+        logger.info("Print all books by author");
+        BooksDAO booksDAO = new BooksDAO();
+        AuthorsDAO authorsDAO = new AuthorsDAO();
+        BooksAuthorsDAO booksAuthorsDAO = new BooksAuthorsDAO();
+
+        System.out.println("All books by " + authors.getFirstname() +
+                           " " + authors.getLastname());
+        try {
+            List<BooksAuthors> booksAuthorsList = booksAuthorsDAO.getAllByAuthorID(authors.getId());
+            if (booksAuthorsList.size() == 0){
+                System.out.println("empty");
+            } else {
+                for (BooksAuthors a : booksAuthorsList) {
+                    printWithAuthor(booksDAO.getByID(a.getBooksId()));
+                }
+            }
+        } catch (SQLException e){
             e.printStackTrace();
             logger.error(e);
         }

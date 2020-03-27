@@ -98,6 +98,10 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
 
         PreparedStatement preparedStatement = null;
 
+        if (id == null){
+            id = 0L;
+        }
+
         String sql = "SELECT * FROM accountingrecords WHERE id=?";
 
         AccountingRecords accountingRecords = new AccountingRecords();
@@ -134,6 +138,10 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
         Connection connection = getConnection();
 
         PreparedStatement preparedStatement = null;
+
+        if (id == null){
+            id = 0L;
+        }
 
         String sql = "SELECT * FROM accountingrecords WHERE accountid=?";
 
@@ -175,6 +183,9 @@ public class AccountingRecordsDAO extends Util implements DAO<AccountingRecords,
         Connection connection = getConnection();
 
         PreparedStatement preparedStatement = null;
+        if (id == null){
+            id = 0L;
+        }
 
         String sql = "SELECT * FROM accountingrecords WHERE bookid=?";
 

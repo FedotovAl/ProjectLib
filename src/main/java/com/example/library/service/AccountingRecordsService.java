@@ -152,19 +152,23 @@ public class AccountingRecordsService {
     //изменение статуса учетной записи на "закрыто"
     public void closeStatus(AccountingRecords accountingRecords){
         logger.info("Close accounting records status");
-        AccountingRecordsDAO accountingRecordsDAO = new AccountingRecordsDAO();
-        try {
-            if (accountingRecordsDAO.getByID(accountingRecords.getId()).getId() != null &&
-                    isCorrect(accountingRecords)){
-                accountingRecords.setStatus("closed");
-                accountingRecordsDAO.update(accountingRecords);
-                System.out.println("endStatus is completed");
-            } else{
-                System.out.println("Record does not exist");
+        if (accountingRecords != null) {
+            AccountingRecordsDAO accountingRecordsDAO = new AccountingRecordsDAO();
+            try {
+                if (accountingRecordsDAO.getByID(accountingRecords.getId()).getId() != null &&
+                        isCorrect(accountingRecords)) {
+                    accountingRecords.setStatus("closed");
+                    accountingRecordsDAO.update(accountingRecords);
+                    System.out.println("endStatus is completed");
+                } else {
+                    System.out.println("Record does not exist");
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+                logger.error(e);
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
-            logger.error(e);
+        } else {
+            System.out.println("Accounting record does not exist");
         }
     }
 
@@ -201,6 +205,45 @@ public class AccountingRecordsService {
                         System.out.println("\tBook was deleted");
                     } else {
                         System.out.println("\tName of book " + books.getName());
+                    }
+                }
+            }
+        } catch(SQLException e) {
+            e.printStackTrace();
+            logger.error(e);
+        }
+    }
+
+    public void showAllAccountingRecordsWhichOpen(){
+        logger.info("Show all accounting records which open");
+        AccountingRecordsDAO accountingRecordsDAO = new AccountingRecordsDAO();
+        ClientDAO clientDAO = new ClientDAO();
+        BooksDAO booksDAO = new BooksDAO();
+        List<AccountingRecords> accountingRecordsList;
+        try{
+            accountingRecordsList = accountingRecordsDAO.getAll();
+            if (accountingRecordsList.size() == 0){
+                System.out.println("List is empty");
+            } else {
+                Client client;
+                Books books;
+                for (AccountingRecords a : accountingRecordsList) {
+                    if (a.getStatus().equals("opened") || a.getStatus().equals("expired")) {
+                        System.out.println("List of AccountingRecords:");
+                        System.out.println("\t" + a);
+                        client = clientDAO.getByID(a.getAccountId());
+                        if (client.getId() == null || client.getId() == 0) {
+                            System.out.println("\tClient was deleted");
+                        } else {
+                            System.out.println("\tName of client " + client.getFirstname() +
+                                    " " + client.getLastname());
+                        }
+                        books = booksDAO.getByID(a.getBookId());
+                        if (books.getId() == null || books.getId() == 0) {
+                            System.out.println("\tBook was deleted");
+                        } else {
+                            System.out.println("\tName of book " + books.getName());
+                        }
                     }
                 }
             }

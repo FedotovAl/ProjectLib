@@ -90,6 +90,10 @@ public class ClientDAO extends Util implements DAO<Client, Long> {
 
         PreparedStatement preparedStatement = null;
 
+        if (id == null){
+            id = 0L;
+        }
+
         String sql = "SELECT * FROM clients WHERE id=?";
 
         Client client = new Client();

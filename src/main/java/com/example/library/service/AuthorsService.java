@@ -49,7 +49,9 @@ public class AuthorsService {
         BooksAuthorsDAO booksAuthorsDAO = new BooksAuthorsDAO();
         try {
             if (authorsDAO.getByID(authors.getId()).getId() != null){
-                booksAuthorsDAO.removeByAuthorID(authors.getId());
+                if (booksAuthorsDAO.getAllByAuthorID(authors.getId()).size() != 0) {
+                    booksAuthorsDAO.removeByAuthorID(authors.getId());
+                }
                 authorsDAO.remove(authors);
                 System.out.println("Removing is completed");
             } else{
